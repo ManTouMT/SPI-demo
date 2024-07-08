@@ -1,3 +1,4 @@
+package com.lxy.demo;
 
 public interface JavaLogService {
     void infoLog(String message);
