@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SPI-Client/SPI-Client.iml" filepath="$PROJECT_DIR$/SPI-Client/SPI-Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/SPI-Interface/SPI-Interface.iml" filepath="$PROJECT_DIR$/SPI-Interface/SPI-Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/SPI-Service/SPI-Service.iml" filepath="$PROJECT_DIR$/SPI-Service/SPI-Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/SPI-demo.iml" filepath="$PROJECT_DIR$/SPI-demo.iml" />
