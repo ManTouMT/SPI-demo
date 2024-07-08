@@ -4,7 +4,7 @@
     <root id="root">
       <element id="archive" name="SPI-Service.jar">
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/SPI-Service/src/META-INF/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/SPI-Service/src/resources/META-INF/MANIFEST.MF" />
         </element>
         <element id="module-output" name="SPI-Service" />
       </element>

@@ -3,6 +3,10 @@ package com.lxy.demo.impl;
 import com.lxy.demo.define.JavaLogService;
 
 public class SL4JService implements JavaLogService {
+    // 必须有一个无参构造方法，这里为了对比注释掉
+//    SL4JService(){
+//        
+//    }
     @Override
     public void infoLog(String message) {
         System.out.println("SL4J service infoLog: " + message);
