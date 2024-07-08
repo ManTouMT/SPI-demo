@@ -5,16 +5,22 @@ import java.util.List;
 import java.util.ServiceLoader;
 
 public class LoggerService {
+    
     private static final LoggerService LOGGER = new LoggerService();
     
     private final JavaLogService javaLogService;
     
     LoggerService() {
+        // 核心
         ServiceLoader<JavaLogService> load = ServiceLoader.load(JavaLogService.class);
-        List<JavaLogService> list = new ArrayList<>();
-        load.forEach(list::add);
-        // 默认去找第一个
-        javaLogService = list.isEmpty() ? null : list.get(0);
+        List<JavaLogService> serviceList = new ArrayList<>();
+        load.forEach(serviceList::add);
+        // 一个都没找到
+        if(serviceList.isEmpty()) {
+            throw new RuntimeException("No JavaLogService found");
+        }
+        // 自己定义实现方式，我这里就默认去找第一个
+        javaLogService = serviceList.get(0);
     }
     
     public void infoLog(String msg) {
