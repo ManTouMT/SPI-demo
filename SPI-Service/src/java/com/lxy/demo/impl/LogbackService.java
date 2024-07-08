@@ -4,7 +4,7 @@ import com.lxy.demo.define.JavaLogService;
 
 public class LogbackService implements JavaLogService {
     // 必须提供一个无参构造方法
-    LogbackService(){
+    public LogbackService(){
         
     }
     @Override
