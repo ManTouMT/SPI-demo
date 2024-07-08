@@ -1,4 +1,4 @@
-package com.lxy.demo;
+package com.lxy.demo.define;
 
 import java.util.ArrayList;
 import java.util.List;
