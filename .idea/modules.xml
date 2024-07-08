@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SPI-Client/SPI-Client.iml" filepath="$PROJECT_DIR$/SPI-Client/SPI-Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/SPI-Interface/SPI-Interface.iml" filepath="$PROJECT_DIR$/SPI-Interface/SPI-Interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SPI-Service/SPI-Service.iml" filepath="$PROJECT_DIR$/SPI-Service/SPI-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SPI-Logback-Service/SPI-Logback-Service.iml" filepath="$PROJECT_DIR$/SPI-Logback-Service/SPI-Logback-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SPI-Sl4j-Service/SPI-Sl4j-Service.iml" filepath="$PROJECT_DIR$/SPI-Sl4j-Service/SPI-Sl4j-Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/SPI-demo.iml" filepath="$PROJECT_DIR$/SPI-demo.iml" />
     </modules>
   </component>

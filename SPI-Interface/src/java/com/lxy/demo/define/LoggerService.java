@@ -13,6 +13,7 @@ public class LoggerService {
         ServiceLoader<JavaLogService> load = ServiceLoader.load(JavaLogService.class);
         List<JavaLogService> list = new ArrayList<>();
         load.forEach(list::add);
+        // 默认去找第一个
         javaLogService = list.isEmpty() ? null : list.get(0);
     }
     

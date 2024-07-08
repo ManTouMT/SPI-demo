@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
-Main-Class: com.lxy.demo.impl.ServiceMain
+Main-Class: com.lxy.demo.impl.LogbackServiceMain
 Class-Path: SPI-Interface.jar
 
