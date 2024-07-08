@@ -1,12 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="SPI-Service:jar">
+  <artifact name="SPI-Service:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/SPI_Service_jar</output-path>
-    <root id="archive" name="SPI-Service.jar">
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/SPI-Service/src/META-INF/MANIFEST.MF" />
+    <root id="root">
+      <element id="archive" name="SPI-Service.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/SPI-Service/src/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="SPI-Service" />
       </element>
-      <element id="module-output" name="SPI-Service" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/SPI-Service/lib/SPI-Interface.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/SPI-Service/lib/SPI-Interface.jar" />
     </root>
   </artifact>
 </component>
