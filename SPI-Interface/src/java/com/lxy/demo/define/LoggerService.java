@@ -10,7 +10,7 @@ public class LoggerService {
     
     private final JavaLogService javaLogService;
     
-    LoggerService() {
+    private LoggerService() {
         // 核心
         ServiceLoader<JavaLogService> load = ServiceLoader.load(JavaLogService.class);
         List<JavaLogService> serviceList = new ArrayList<>();
