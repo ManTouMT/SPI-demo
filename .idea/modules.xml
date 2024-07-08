@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SPI-Interface/SPI-Interface.iml" filepath="$PROJECT_DIR$/SPI-Interface/SPI-Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SPI-demo.iml" filepath="$PROJECT_DIR$/SPI-demo.iml" />
+    </modules>
+  </component>
+</project>
