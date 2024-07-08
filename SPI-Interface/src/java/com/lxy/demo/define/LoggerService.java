@@ -40,7 +40,7 @@ public class LoggerService {
         }
     }
     
-    public LoggerService getService() {
+    public static LoggerService getService() {
         return LOGGER;
     }
 }
