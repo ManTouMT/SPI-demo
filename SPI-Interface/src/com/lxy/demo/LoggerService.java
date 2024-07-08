@@ -19,18 +19,24 @@ public class LoggerService {
     public void infoLog(String msg) {
         if(javaLogService != null) {
             javaLogService.infoLog(msg);
+        } else {
+            throw new RuntimeException("infoLog:JavaLogService is null!");
         }
     }
     
     public void warnLog(String msg) {
         if(javaLogService != null) {
             javaLogService.warnLog(msg);
+        }else {
+            throw new RuntimeException("warnLog:JavaLogService is null!");
         }
     }
     
     public void errorLog(String msg) {
         if(javaLogService != null) {
             javaLogService.errorLog(msg);
+        }else {
+            throw new RuntimeException("errorLog:JavaLogService is null!");
         }
     }
     
